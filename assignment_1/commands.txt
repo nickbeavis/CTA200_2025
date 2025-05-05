@@ -1,0 +1,31 @@
+    1  cd
+    2  cd .
+    3  ls
+    4  /fs/lustre/scratch/
+    5  cd. /fs/lustre/scratch/nbeavis
+    6  ls
+    7  cd ..
+    8  cd. /fs/lustre/scratch/nbeavis
+    9  cd /fs/lustre/scratch/nbeavis
+   10  exit
+   11  ls
+   12  cd /fs/lustre/scratch/nbeavis/assignment_1/
+   13  ls
+   14  module list
+   15  module load gcc/11.2.0 python/3.10.2
+   16  ./Hell0_world_beavis.c > output_c.txt
+   17  ./Hello_world_beavis.c > output_c.txt
+   18  ls
+   19  vi output_c.txt
+   20  gcc Hello_world_beavis.c -o Hello_world_beavis.x
+   21  ./Hello_world_beavis.c
+   22  ls
+   23  ./Hello_world_beavis.x
+   24  ./Hello_world_beavis.x > output_c.txt
+   25  vi output_c.txt
+   26  python Hello_world_beavis.py > output_python.txt
+   27  vi output_python.txt
+   28  vi Hello_world_beavis.py
+   29  python Hello_world_beavis.py > output_python.txt
+   30  vi output_python.txt
+   31  history > commands.txt
